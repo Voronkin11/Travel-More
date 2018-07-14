@@ -1,0 +1,36 @@
+.footer {
+	padding-top: 120px;
+	background-color: #232323;
+}
+
+.footer__block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer__heading {
+	margin-bottom: 15px;
+	font-size: 24px;
+	font-weight: 300;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+}
+
+.footer__p {
+	margin-bottom: 30px;
+	letter-spacing: 0.1em;
+}
+
+.social-list__link-fb {
+	&:before {
+	content: '\f09a';
+	font-family: FontAwesome;
+	color: $color-main;
+	
+	}
+	&:hover {
+		color: $color-hover;
+	}
+}
+

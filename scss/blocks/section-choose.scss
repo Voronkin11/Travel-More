@@ -1,0 +1,37 @@
+.section-choose {
+	padding: 120px 0;
+	background-image: url(../img/section-choose-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+
+.block-text__heading {
+	margin: 85px 0 60px;
+	font-family: Aleo;
+	font-size: $font-size-h2;
+}
+
+.block-text__p {
+	letter-spacing: 0.1em;
+	padding-bottom: 40px;
+}
+
+.blokc-img {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.blokc-img__one {
+	width: 350px;
+	height: 220px;
+	margin-bottom: 5px;
+}
+
+.blokc-img__two {
+	align-self: flex-end;
+	width: 350px;
+	height: 220px;
+}

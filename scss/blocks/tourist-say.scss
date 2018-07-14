@@ -1,0 +1,54 @@
+.tourist-say {
+	padding: 120px 0 200px;
+	background-image: url(../img/tourist-say-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.tourist-say__row {
+	display: flex;
+	justify-content: center;
+}
+
+.tourist-say__heading {
+	margin-bottom: 94px;
+	font-family: Aleo;
+	font-size: $font-size-h2;
+	font-weight: 300;
+}
+
+.sam-sumon__column {
+	display: flex;
+	background-color: #333333;
+}
+
+.sam-sumon__img {
+	width: 445px;
+	height: 100%;
+	font-size: 0;
+}
+
+.sam-sumon__text {
+	width: 665px;
+	padding: 50px 54px 0 60px;
+}
+
+.sam-sumon__heading {
+	margin-bottom: 30px;
+	font-size: 20px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.blockquote {
+	display: block;
+	margin: 0;
+
+		&::before {
+			content: "\f10d";
+			padding-bottom: 20px;
+			font-family: FontAwesome;
+			color: $color-main;
+		}
+}
