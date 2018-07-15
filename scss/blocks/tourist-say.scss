@@ -1,5 +1,5 @@
 .tourist-say {
-	padding: 120px 0 200px;
+	padding: 115px 0 203px;
 	background-image: url(../img/tourist-say-bg.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -15,7 +15,7 @@
 	margin-bottom: 94px;
 	font-family: Aleo;
 	font-size: $font-size-h2;
-	font-weight: 300;
+	font-weight: $font-weight-main;
 }
 
 .sam-sumon__column {
@@ -24,8 +24,7 @@
 }
 
 .sam-sumon__img {
-	width: 445px;
-	height: 100%;
+	width: 540px;
 	font-size: 0;
 }
 
@@ -35,20 +34,24 @@
 }
 
 .sam-sumon__heading {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	font-size: 20px;
-	font-weight: 300;
+	font-weight: $font-weight-main;
 	text-transform: uppercase;
 }
 
 .blockquote {
 	display: block;
 	margin: 0;
+	font-size: 16px;
+	line-height: 1.625;
+	text-indent: 25px;
+}
 
-		&::before {
-			content: "\f10d";
-			padding-bottom: 20px;
-			font-family: FontAwesome;
-			color: $color-main;
-		}
+.quote{
+	&::before {
+	content: "\f10d";
+	font-family: FontAwesome;
+	color: $color-two;
+	}
 }

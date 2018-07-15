@@ -1,5 +1,5 @@
 .section-choose {
-	padding: 120px 0;
+	padding: 120px 0 125px;
 	background-image: url(../img/section-choose-bg.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -8,14 +8,21 @@
 
 
 .block-text__heading {
-	margin: 85px 0 60px;
+	margin: 80px 0 56px;
 	font-family: Aleo;
 	font-size: $font-size-h2;
 }
 
 .block-text__p {
+	font-size: $font-size-main;
+	padding-bottom: 30px;
+	font-weight: $font-weight-main;
 	letter-spacing: 0.1em;
-	padding-bottom: 40px;
+	line-height: 1.6;
+}
+
+.link-btn__choose {
+	margin-top: 15px;
 }
 
 .blokc-img {
@@ -27,7 +34,8 @@
 .blokc-img__one {
 	width: 350px;
 	height: 220px;
-	margin-bottom: 5px;
+	margin-bottom: 7px;
+	margin-left: -60px;
 }
 
 .blokc-img__two {
@@ -35,3 +43,4 @@
 	width: 350px;
 	height: 220px;
 }
+

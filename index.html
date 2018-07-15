@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Travel More</title>
-	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -15,14 +15,15 @@
 					<h1 class="main-heading">Bhromaon</h1>
 					<p class="main-heading-text">Safe Travel Anywhere</p>
 					<form class="form-serch" action="#" name="search">
-						<input class="form-serch__text" type="text" placeholder="Search Your Travel Destination">
+						<input class="form-serch__text" type="text" required placeholder="Search Your Travel Destination">
 						<input class="form-serch__btn" type="submit" value="Search">
 					</form>
-					<a class="link scroll" href="#">Scroll Down</a>
+					<a class="link scroll" href="#main-menu">Scroll Down</a>
 				</div>
 			</section>
 		</div>
-		<section class="section-nav">
+		<section class="section-nav" id="main-menu">
+			<h2 class="hidden">menu</h2>
 			<div class="container">
 				<div class="row navigation">
 					<div class="column column-s6">
@@ -58,7 +59,7 @@
 						<h2 class="block-text__heading">Why Choose Us</h2>
 						<p class="block-text__p">Tion and dislike men who are so beguiled and demoralized by desire by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee</p>
 						<p class="block-text__p">Ddislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that.</p>
-						<a href="#" class="link-btn">Explore Places</a>
+						<a href="#" class="link-btn link-btn__choose">Explore Places</a>
 					</div>
 					<div class="column column-s6 blokc-img">
 						<div class="blokc-img__one">
@@ -71,25 +72,26 @@
 				</div>
 			</div>
 		</section>
-		<section class="section">
-			<div class="container">
-				<div>
-					<div>
-						<div>
-							<img src="" alt="photo">
-						</div>
-						<p>
-							<img src="" alt="">
-						</p>
-						<p>
-							<img src="" alt="">
-						</p>
+		<section class="how-works">
+			<h2 class="hidden">How It Works</h2>
+			<div class="container how-works__block">
+				<div class="wrap-how-works">
+					<div class="how-works__img">
+						<img src="../img/search.svg" alt="search">
 					</div>
-					<div>
-						<p>Search Places</p>
-						<p>Select Places</p>
-						<p>Book & Enjoy</p>
+					<p>Search Places</p>
+				</div>
+				<div class="wrap-how-works">
+					<div class="how-works__img">
+						<img src="../img/select.svg" alt="select">
 					</div>
+					<p>Search Places</p>
+				</div>
+				<div class="wrap-how-works">
+					<div class="how-works__img">
+						<img src="../img/book.svg" alt="book">
+					</div>
+					<p>Book & Enjoy</p>
 				</div>
 			</div>
 		</section>
@@ -100,7 +102,7 @@
 						<span class="country__name">Spain</span>
 						<h3 class="country__heading">Grand Spain Madrid</h3>
 						<p class="country__p">But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system</p>
-						<a href="#" class="link-btn">Explore Places</a>
+						<a href="#" class="link-btn link-btn__book">Book Now</a>
 					</div>
 				</div>
 			</div>
@@ -112,7 +114,7 @@
 						<span class="country__name">Spain</span>
 						<h3 class="country__heading">Grand Spain Madrid</h3>
 						<p class="country__p">But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system</p>
-						<a href="#" class="link-btn">Explore Places</a>
+						<a href="#" class="link-btn link-btn__book">Book Now</a>
 					</div>
 				</div>
 			</div>
@@ -129,6 +131,7 @@
 						</div>
 						<div class="sam-sumon__text">
 							<h3 class="sam-sumon__heading">Sam Sumon</h3>
+							<span class="quote"></span>
 							<blockquote class="blockquote">
 								But I must explain to you how all this mistaken idea of account to denouncinpleasure and praising pain  But I must explain to you how all this mistaken idea of account to nai denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system was account  born and I account will give you a nai the complete account of the system
 							</blockquote>
@@ -141,23 +144,23 @@
 	<footer class="footer">
 		<div class="container">
 			<div class="footer__block">
-				<h3 class="footer__heading">Bhromaon</h3>
+				<a class="logo link footer__heading" href="#">Bhromaon</a>
 				<p class="footer__p">Safe Travel Anywhere</p>
 				<ul class="social-list list">
 					<li>
-						<a href="" class="social-list__link social-list__link-fb"></a>
+						<a href="https://www.facebook.com/" class="social-list__link social-list__link--fb" target="_blank"></a>
 					</li>
 					<li>
-						<a href="" class="social-list__link"></a>
+						<a href="https://twitter.com/" class="social-list__link social-list__link--tw" target="_blank"></a>
 					</li>
 					<li>
-						<a href="" class="social-list__link"></a>
+						<a href="https://www.linkedin.com/" class="social-list__link social-list__link--in" target="_blank"></a>
 					</li>
 					<li>
-						<a href="" class="social-list__link"></a>
+						<a href="https://www.youtube.com/" class="social-list__link social-list__link--yb" target="_blank"></a>
 					</li>
 					<li>
-						<a href="" class="social-list__link"></a>
+						<a href="https://www.pinterest.com/" class="social-list__link social-list__link--pin" target="_blank"></a>
 					</li>
 				</ul>
 			</div>

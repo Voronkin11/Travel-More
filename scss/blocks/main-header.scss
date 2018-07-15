@@ -6,19 +6,24 @@
 }
 
 .search {
+	display: flex;
+	align-items: center;
 	text-align: center;
 }
 
 .main-heading {
-	margin: 265px 0 15px;
+	margin: 265px 0 3px;
 	font-size: 48px;
+	font-weight: $font-weight-main;
 	text-transform: uppercase;
+	letter-spacing: 0.1em;
 }
 
 .main-heading-text {
-	margin-bottom: 50px;
+	margin-bottom: 47px;
 	font-size: 22px;
-	line-height: 1.18;
+	font-weight: 300;
+	letter-spacing: 0.3em;
 }
 
 .form-serch {
@@ -27,7 +32,7 @@
 	align-items: center;
 	width: 650px;
 	height: 60px;
-	margin: 0 auto 120px;
+	margin: 0 auto 122px;
 	background-color: #ffffff;
 	font-size: 0;
 }
@@ -38,7 +43,14 @@
 	height: 56px;
 	border: none;
 	font-size: 14px;
+	line-height: 1.2;
 	text-align: center;
+	color: #999999;
+
+		&::placeholder {		
+			font-size: 14px;
+			line-height: 1.2;
+		}
 }
 
 .form-serch__btn {
@@ -66,21 +78,19 @@
 .scroll {
 	position: relative;
 	display: block;
-	margin-bottom: 158px;
+	margin-bottom: 155px;
 	font-size: 14px;
 	letter-spacing: 0.2em;
 
 	&:after {
-		content: '';
+		content: '\f107';
 		position: absolute;
 		left: 50%;
-		top: 30px;
-		margin-left: -6.5px;
+		top: 20px;
+		margin-left: -9px;
 		display: block;
-		width: 13px;
-		height: 7px;
-		margin: 15 auto 0;
-		background-image: url(../img/down.svg);
+		font-family: FontAwesome;
+		font-size: 16px;
 	}
 
 		&:hover {
@@ -96,16 +106,20 @@
 
 .navigation {
 	display: flex;
-	padding: 28px 0;
+	padding: 27px 0;
 }
 
 .logo {
+	margin-left: -11px;
 	font-size: 24px;
+	letter-spacing: 0.1em;
 }
 
 .main-nav__list {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	padding: 5px 0 0 13px;
 	font-family: Aleo;
 	font-size: 14px;
 }

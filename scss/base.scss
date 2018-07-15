@@ -3,6 +3,7 @@ body {
 	font-size: $font-size-main;
 	font-weight: $font-weight-main;
 	color: $color-main;
+	min-width: 1140px;
 }
 
 img {
@@ -34,4 +35,8 @@ p {
 	&:hover {
 			color: $color-hover;
 		}
+}
+
+.hidden {
+	display: none;
 }
