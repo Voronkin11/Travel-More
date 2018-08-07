@@ -1,0 +1,18 @@
+.logo {
+	font-family: $font-family-main;
+	font-size: 24px;
+	font-weight: $font-weight-bold;
+	line-height: 1;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: $color-main;
+		&:hover {
+			color: $color-hover;
+		}
+}
+
+.logo--footer {
+	letter-spacing: 0.14em;
+	margin-bottom: 7px;
+	letter-spacing: 0.09em;
+}

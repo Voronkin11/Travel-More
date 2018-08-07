@@ -1,0 +1,47 @@
+.social-list {
+	display: flex;
+	justify-content: space-between;;
+	width: 165px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.social-list__link {
+	target: _blank;
+	font-family: FontAwesome;
+	color: $color-main;
+	&:hover {
+		color: $color-blue;
+	}
+}
+
+.social-list__link--fb {
+	&:before {
+	content: '\f09a';
+	}
+}
+
+.social-list__link--tw {
+	&:before {
+	content: '\f099';
+	}
+}
+
+.social-list__link--in {
+	&:before {
+	content: '\f0e1';
+	}
+}
+
+.social-list__link--yb {
+	&:before {
+	content: '\f16a';
+	}
+}
+
+.social-list__link--pin {
+	&:before {
+	content: '\f0d2';
+	}
+}

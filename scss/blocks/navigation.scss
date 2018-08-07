@@ -1,0 +1,27 @@
+.navigation {
+	padding-top: 27px;
+	padding-bottom: 27px;
+	background-color: $color-blue;
+}
+
+.navigation__list {
+	display: flex;
+	margin: 0;
+	list-style-type: none;
+	text-transform: uppercase;
+}
+
+.navigation__link {
+	display: block;
+	margin-left: 42px;
+	font-family: $font-family-two;
+	font-size: 14px;
+	font-weight: $font-weight-regular;
+	line-height: 1.857;
+	text-transform: uppercase;
+	color: $color-main;
+		&:hover {
+			color: $color-hover;
+			text-shadow: 0 0 9px #0000ff;
+		}
+}

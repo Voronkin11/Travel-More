@@ -1,0 +1,37 @@
+.section {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.section--why_choose {
+	padding-top: 120px;
+	padding-bottom: 120px;
+	background-image: url(../img/section-choose-bg.jpg);
+	
+}
+
+.section--how_it {
+	background-color: $bg-color;
+}
+
+.section--country_one {
+	padding-top: 229px;
+	padding-bottom: 100px;
+	background-image: url(../img/country1-bg.jpg);
+}
+
+.section--country_two {
+	padding-top: 229px;
+	padding-bottom: 100px;
+	background-image: url(../img/country2-bg.jpg);
+}
+
+.section--testimonial {
+	padding-top: 122px;
+	padding-bottom: 200px;
+	background-image: url(../img/testimonial-bg.jpg);
+}

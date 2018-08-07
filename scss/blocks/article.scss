@@ -1,0 +1,37 @@
+.article {
+	box-sizing: border-box;
+}
+
+.article--why_choose {
+	width: 540px;
+	margin-top: 86px;
+}
+
+.article--country {
+	width: 540px;
+	padding-left: 30px;
+	padding-top: 46px;
+	padding-right: 32px;
+	padding-bottom: 50px;
+	background-color: rgba(35, 35, 35, 0.9);
+}
+
+.article--review {
+	display: flex;
+}
+
+.article__img_wrap {
+	display: flex;
+	width: 445px;
+}
+
+.article__text_wrap{
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	width: 665px;
+	padding-left: 60px;
+	padding-top: 48px;
+	padding-right: 40px;
+	background-color: $bg-color;
+}

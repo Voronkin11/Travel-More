@@ -1,0 +1,23 @@
+.scroll_down {
+	position: relative;
+	margin-bottom: 148px;
+	font-family: $font-family-main;
+	font-size: 14px;
+	font-weight: $font-weight-regular;
+	line-height: 1.857;
+	letter-spacing: 0.12em;
+	color: $color-main;
+		&::after {
+			content: '\f107';
+			position: absolute;
+			left: 50%;
+			top: 15px;
+			margin-left: -7px;
+			display: block;
+			font-family: fontawesome;
+			font-size: 20px;
+		}
+		&:hover {
+			color: $color-hover;
+		}
+}
